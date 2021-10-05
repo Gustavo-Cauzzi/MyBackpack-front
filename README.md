@@ -1,6 +1,10 @@
 # My backpack
 
-Educational platafform for student management for teachers
+### Educational platafform for student management for teachers
+
+## Backend
+
+The backend API was made by [Zardosh](https://github.com/Zardosh) and you can find it in [this repo](https://github.com/Zardosh/my-backpack-api)
 
 ## Available Scripts
 
