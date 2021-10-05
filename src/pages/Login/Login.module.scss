@@ -1,0 +1,61 @@
+.loginImage {
+  min-width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  > div {
+    max-height: 400px;
+    max-width: 500px;
+    display: flex;
+    flex: 1;
+    min-height: 300px;
+    min-width: 400px;
+    border-radius: 29% 71% 74% 26% / 67% 38% 62% 33%;
+  }
+
+  figure {
+    img {
+      margin-left: -20px;
+      margin-top: -20px;
+      width: 400px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    figure {
+      img {
+        margin-left: -20px;
+        margin-top: -20px;
+        width: 400px;
+      }
+    }
+  }
+}
+
+.createAccount {
+  cursor: pointer;
+  transition: 0.1s;
+  &:hover {
+    color: var(--main-color);
+    font-size: 18px;
+  }
+}
+
+.aa {
+  min-height: 400px;
+}
+
+.spacer {
+  @media (min-width: 768px) {
+    height: 275px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    // background-image: url("../assets/svg/login_curves.svg");
+    bottom: 0;
+    overflow-y: hidden;
+  }
+}
